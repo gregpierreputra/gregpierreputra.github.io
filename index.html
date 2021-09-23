@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Me, Myself and I" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Greg Pierre Putra</title>
+    <script src="./script.js"></script>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://www.gregputra.com" class="link"
+          >GPP.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <!--
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+        -->
+        
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hello, I am <span class="about__name">Greg Pierre Putra</span></h1>
+        <h2 class="about__role">A Computer Science student</h2>
+        <p class="about__desc">
+          I am currently a 3rd year BSc Computer Science student at the University of Birmingham.
+          I am an avid learner, and curious thinker with an interest in Neural Networks, Path Tracing, Human-Computer Interaction and Space Exploration.
+          Some of my hobbies include football, paintball, chess and poker.
+          I have also completed my International Baccalaureate diploma at SPH Kemang Village and a member of the SPH Kemang Village Student Council.
+          I was also the vice-president of The Lifeline Project and a member of the senior school football team during my time in SPH Kemang Village.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1ijIU8qio5mAsZ51FcDxalbbWKBb8H4Fy/view?usp=sharing">
+            <span class="btn btn--outline">CV</span>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/greg-pierre-putra/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Covid Personal Shoppers App</h3>
+            <p class="project__description">
+              Software engineered a personal shoppers app. Developed a thorough requirements
+              document and UML diagrams in order to layout the framework of the application.
+              Created a wireframe prototype that displayed all the key pages that would be
+              included in the application.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Software Engineering</li>
+              <li class="project__stack-item">UML</li>
+              <li class="project__stack-item">Balsamiq</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>Super Smash Bros Clone</h3>
+            <p class="project__description">
+              Recreated a video game similar to Super Smash Bros video game. Created a similar
+              game engine that mimicked the game's physics, rendering, and combat mechanics.
+              Developed a different art style to the game resembling that of pixel art.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JavaFX</li>
+              <li class="project__stack-item">OpenGL</li>
+              <li class="project__stack-item">Git</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>Flappy Bird Clone</h3>
+            <p class="project__description">
+              Developed a flappy bird style game using the Unity game engine and C#. Introduced to
+              and implemented to and implemented basic cartoon physics, infinite game concepts alongside
+              UI setup and object pooling.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C#/C++</li>
+              <li class="project__stack-item">Unity Game Engine</li>
+              <li class="project__stack-item">Gimp</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">C/C++</li>
+          <li class="skills__list-item btn btn--plain">Haskell</li>
+          <li class="skills__list-item btn btn--plain">Django</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">TensorFlow</li>
+          <li class="skills__list-item btn btn--plain">Unix/Linux</li>
+          <li class="skills__list-item btn btn--plain">LaTeX</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:gregsitumorang@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        class="link footer__link"
+      >
+        Have a nice day!
+      </a>
+    </footer>
+
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </body>
+</html>
