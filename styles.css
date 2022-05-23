@@ -289,10 +289,10 @@ main {
 }
 
 .projects__grid {
-  max-width: 2000px;
+  max-width: 2500px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18em, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(24em, 1fr));
   grid-gap: 2em;
 }
 
